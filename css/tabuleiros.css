@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(215, 173, 255);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: rgb(239, 221, 255);
+    width: 845px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.flex-container>div {
+    width: 80px;
+    margin: 5px 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-size: 1.3rem;
+}
+
+.personagem{
+    position: absolute;
+    top: -3px;
+    left: 185px;
+}
+
+#jogador1{
+    height: 100px;
+    left: 195px;
+}
+
+#jogador2{
+    height: 150px;
+    top: -35px;
+}
+
+.inicioFim {
+    background-color: #f56b34;
+}
+.casinhaVermelha {
+    background-color: rgb(245, 117, 117);
+}
+
+.casinhaAzul {
+    background-color: rgb(118, 219, 245);
+}
+
+.casinhaAmarela {
+    background-color: rgb(247, 247, 150);
+}
+
+.casinhaVerde {
+    background-color: rgb(109, 226, 109);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#face{
+    height: 90px;
+    width: 90px;
+}
+
+#ajuda{
+    position: relative;
+    height: 200px;
+}
